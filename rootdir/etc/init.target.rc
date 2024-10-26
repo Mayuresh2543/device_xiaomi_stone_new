@@ -60,6 +60,10 @@ on init
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
     write /sys/block/sda/queue/iosched/group_idle 0
+    
+    # Touchscreen
+    chown system system /sys/devices/platform/soc/4c88000.i2c/i2c-2/2-0038/fts_gesture_mode
+    chmod 0664  /sys/devices/platform/soc/4c88000.i2c/i2c-2/2-0038/fts_gesture_mode
 
 on early-fs
     start vold
