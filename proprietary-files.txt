@@ -806,10 +806,6 @@ vendor/lib/soundfx/libshoebox.so
 vendor/lib/soundfx/libmisoundfx.so
 vendor/lib64/soundfx/libmisoundfx.so
 
-# Audio - from cheetah-user 14 UP1A.231105.003 11010452 release-keys
-vendor/lib/soundfx/libspatialaudio.so
-vendor/lib64/soundfx/libspatialaudio.so
-
 # ANT+
 vendor/lib/hw/com.dsi.ant@1.0-impl.so
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
@@ -1175,7 +1171,6 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
 
 # IRQ balance
 vendor/bin/msm_irqbalance
-vendor/etc/msm_irqbalance.conf
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
