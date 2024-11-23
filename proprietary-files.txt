@@ -996,6 +996,7 @@ vendor/lib64/libdpmqmihal.so
 vendor/bin/qseecomd
 vendor/etc/init/qseecomd.rc
 vendor/etc/gpfspath_oem_config.xml
+vendor/lib/libqcbor.so
 vendor/lib64/libGPreqcancel.so
 vendor/lib64/libGPreqcancel_svc.so
 vendor/lib64/libQSEEComAPI.so
