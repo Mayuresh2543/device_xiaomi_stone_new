@@ -930,7 +930,7 @@ vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.holi.so
 vendor/bin/diag-router
 vendor/etc/init/vendor.qti.diag.rc
 vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
-vendor/lib64/vendor.qti.diaghal@1.0.so
+vendor/lib64/vendor.qti.diaghal@1.0.so;MODULE_SUFFIX=_vendor
 system_ext/lib64/libdiag_system.so
 system_ext/lib64/vendor.qti.diaghal@1.0.so
 
@@ -988,7 +988,7 @@ system_ext/lib64/libdpmtcm.so
 system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
 vendor/bin/dpmQmiMgr
 vendor/etc/init/dpmQmiMgr.rc
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libdpmqmihal.so
 
 # DRM
@@ -1032,7 +1032,7 @@ system_ext/lib64/fm_helium.so
 system_ext/lib64/libfm-hci.so
 system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.fm@1.0.so
+vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
@@ -1156,7 +1156,7 @@ vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so
 vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so
-vendor/lib64/vendor.qti.imsrtpservice@3.0.so
+vendor/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
 
 # IRQ balance
@@ -1193,7 +1193,7 @@ vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy
 vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy
 vendor/etc/vintf/manifest/c2_manifest_vendor.xml
 vendor/etc/video_system_specs.json
-vendor/lib/libmmosal.so
+vendor/lib/libmmosal.so;MODULE_SUFFIX=_vendor
 vendor/lib/libqcodec2_base.so
 vendor/lib/libqcodec2_basecodec.so
 vendor/lib/libqcodec2_core.so
@@ -1201,7 +1201,7 @@ vendor/lib/libqcodec2_hooks.so
 vendor/lib/libqcodec2_platform.so
 vendor/lib/libqcodec2_utils.so
 vendor/lib/libqcodec2_v4l2codec.so
-vendor/lib64/libmmosal.so
+vendor/lib64/libmmosal.so;MODULE_SUFFIX=_vendor
 
 # Media Configs
 vendor/etc/media_blair/video_system_specs.json
@@ -1464,28 +1464,28 @@ vendor/lib64/qcrild_libqcrilnrutils.so
 vendor/lib64/qcrilMarshal.so
 vendor/lib64/qtiril-utils.so
 vendor/lib64/qtiwakelock.so
-vendor/lib64/vendor.qti.hardware.radio.am@1.0.so
+vendor/lib64/vendor.qti.hardware.radio.am@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
-vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
-vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so
-vendor/lib64/vendor.qti.hardware.radio.lpa@1.1.so
-vendor/lib64/vendor.qti.hardware.radio.lpa@1.2.so
-vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.5.so
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.6.so
-vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so
-vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so
-vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so
-vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
-vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
-vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
-vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
+vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.radio.lpa@1.1.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.radio.lpa@1.2.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.5.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.6.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so;MODULE_SUFFIX=_vendor
 
 # Snapdragon Computer Vision Engine
 vendor/lib/libscveCommon.so
