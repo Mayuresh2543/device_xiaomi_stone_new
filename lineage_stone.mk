@@ -14,8 +14,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from stone device
 $(call inherit-product, device/xiaomi/stone/device.mk)
 
-PREBUILT_KERNEL := true
-
 PRODUCT_NAME := lineage_stone
 PRODUCT_DEVICE := stone
 PRODUCT_MANUFACTURER := Xiaomi

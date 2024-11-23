@@ -126,10 +126,6 @@ vendor/etc/sound_trigger_mixer_paths_usbc.xml
 vendor/etc/sound_trigger_platform_info.xml
 vendor/etc/usb_audio_policy_configuration.xml
 
-# Audio Effects
-vendor/lib/soundfx/libmisoundfx.so
-vendor/lib64/soundfx/libmisoundfx.so
-
 # Audio Hardware
 vendor/lib/hw/audio.primary.holi.so
 vendor/lib/liba2dpoffload.so
@@ -443,7 +439,7 @@ vendor/etc/qdcm_calib_data_xiaomi_m17_38_0c_0a_fhd_dsc_video_dsi_panel.xml
 
 # Fingerprint
 vendor/etc/permissions/com.fingerprints.extension.xml
--vendor/framework/com.fingerprints.extension.jar
+vendor/framework/com.fingerprints.extension.jar
 vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so
 vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.default.so
 vendor/lib64/com.fingerprints.extension@1.0.so
@@ -605,8 +601,8 @@ vendor/firmware/vpu20_4v_unsigned.mbn
 vendor/firmware/wigig/wigig.ini
 
 # HotwordEnrollment
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
+product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk
+product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
@@ -830,7 +826,7 @@ vendor/lib/libbluetooth_audio_session_qti.so
 vendor/lib/libbluetooth_audio_session_qti_2_1.so
 
 # CAcert
--vendor/app/CACertService/CACertService.apk
+vendor/app/CACertService/CACertService.apk
 vendor/lib64/libcacertclient.so
 vendor/lib64/libjnihelper.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
@@ -852,7 +848,7 @@ vendor/bin/init.qti.chg_policy.sh
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 
 # CNE
--vendor/app/CneApp/CneApp.apk
+vendor/app/CneApp/CneApp.apk
 vendor/bin/cnd
 vendor/bin/mutualex
 vendor/etc/cne/mwqem.conf
@@ -919,7 +915,7 @@ system_ext/lib64/libvndfwk_detect_jni.qti.so
 vendor/lib64/libcvp_common.so
 vendor/lib64/libcvpcpuRev_skel.so
 vendor/lib64/libfastcvdsp_stub.so
--vendor/lib64/libfastcvopt.so
+vendor/lib64/libfastcvopt.so
 vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 
 # Configstore
@@ -933,15 +929,10 @@ vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.holi.so
 # Diag
 vendor/bin/diag-router
 vendor/etc/init/vendor.qti.diag.rc
--vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
+vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
 vendor/lib64/vendor.qti.diaghal@1.0.so
-
-# Diag
 system_ext/lib64/libdiag_system.so
 system_ext/lib64/vendor.qti.diaghal@1.0.so
-vendor/etc/init/vendor.qti.diag.rc
--vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
-vendor/lib64/vendor.qti.diaghal@1.0.so
 
 # Display
 vendor/bin/qdcmss
@@ -956,7 +947,6 @@ vendor/lib64/libdisplayskuutils.so
 vendor/lib64/libdpps.so
 vendor/lib64/libhdr_tm.so
 vendor/lib64/libqdcm-mode-parser.so
-vendor/lib64/libqrtrclient.so
 vendor/lib64/libqseed3.so
 vendor/lib64/librcmask.so
 vendor/lib64/libsdm-color.so
@@ -982,7 +972,7 @@ vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
 # DPM
-framework/tcmclient.jar
+system/framework/tcmclient.jar
 system_ext/bin/dpmd
 system_ext/etc/dpm/dpm.conf
 system_ext/etc/init/dpmd.rc
@@ -995,7 +985,7 @@ system_ext/lib64/libdpmctmgr.so
 system_ext/lib64/libdpmfdmgr.so
 system_ext/lib64/libdpmframework.so
 system_ext/lib64/libdpmtcm.so
--system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
+system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
 vendor/bin/dpmQmiMgr
 vendor/etc/init/dpmQmiMgr.rc
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
@@ -1024,7 +1014,7 @@ vendor/lib64/libtrustedapploader.so
 # DRM (Widevine)
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
--vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
 vendor/lib64/mediadrm/libwvdrmengine.so
 vendor/lib64/libwvhidl.so
 
@@ -1054,7 +1044,7 @@ vendor/bin/loc_launcher
 vendor/bin/lowi-server
 vendor/bin/mlid
 vendor/bin/xtra-daemon
--vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml
+vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml
 vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so
 vendor/lib64/libaoa.so
 vendor/lib64/libcdfw.so
@@ -1115,7 +1105,7 @@ vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
 
 # IMS
--system_ext/app/uceShimService/uceShimService.apk
+system_ext/app/uceShimService/uceShimService.apk
 system_ext/lib64/lib-imsvideocodec.so
 system_ext/lib64/lib-imsvt.so
 system_ext/lib64/lib-imsvtextutils.so
@@ -1123,8 +1113,8 @@ system_ext/lib64/lib-imsvtutils.so
 system_ext/lib64/libimscamera_jni.so
 system_ext/lib64/libimsmedia_jni.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
--system_ext/priv-app/ims/ims.apk|101f8487b5954514421a3956cef437852bf05e0b
--vendor/app/IWlanService/IWlanService.apk
+system_ext/priv-app/ims/ims.apk
+vendor/app/IWlanService/IWlanService.apk
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdaemon
 vendor/etc/init/ims_rtp_daemon.rc
@@ -1201,7 +1191,7 @@ vendor/bin/hw/vendor.qti.media.c2@1.0-service
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
 vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy
 vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy
--vendor/etc/vintf/manifest/c2_manifest_vendor.xml
+vendor/etc/vintf/manifest/c2_manifest_vendor.xml
 vendor/etc/video_system_specs.json
 vendor/lib/libmmosal.so
 vendor/lib/libqcodec2_base.so
@@ -1217,7 +1207,7 @@ vendor/lib64/libmmosal.so
 vendor/etc/media_blair/video_system_specs.json
 vendor/etc/media_blair_lite/video_system_specs.json
 vendor/etc/media_holi/video_system_specs.json
-vendor/etc/media_codecs.xml|76fa72d32e3ace473d8c3dbeefe05a087c14ed80
+vendor/etc/media_codecs.xml
 vendor/etc/media_codecs_blair.xml
 vendor/etc/media_codecs_blair_lite.xml
 vendor/etc/media_codecs_google_audio.xml
@@ -1243,7 +1233,7 @@ vendor/etc/media_profiles_vendor.xml
 # Mlipay
 vendor/bin/mlipayd@1.1
 vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
--vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml
+vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml
 vendor/lib64/libmlipay.so
 vendor/lib64/libmlipay@1.1.so
 
@@ -1274,7 +1264,7 @@ vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
 
 # Power-off alarm
--product/app/PowerOffAlarm/PowerOffAlarm.apk
+system_ext/app/PowerOffAlarm/PowerOffAlarm.apk
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 vendor/bin/power_off_alarm
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
@@ -1290,7 +1280,7 @@ vendor/lib64/libsoc_helper.so
 vendor/lib64/libsoc_helper_jni.so
 
 # QMI
-etc/sysconfig/qti_whitelist.xml
+system/etc/sysconfig/qti_whitelist.xml
 vendor/bin/irsc_util
 vendor/bin/pd-mapper
 vendor/bin/qmipriod
@@ -1320,9 +1310,6 @@ vendor/lib64/libdiag.so
 vendor/lib64/libdsutils.so
 vendor/lib64/libidl.so
 vendor/lib64/libmdmdetect.so
-vendor/lib64/libminkdescriptor.so
-vendor/lib64/libpdmapper.so
-vendor/lib64/libpdnotifier.so
 vendor/lib64/libqcci_legacy.so
 vendor/lib64/libqdi.so
 vendor/lib64/libqdp.so
@@ -1339,9 +1326,9 @@ vendor/lib64/libqmiextservices.so
 vendor/lib64/libqmiservices.so
 
 # RIL
-etc/permissions/privapp-permissions-qti.xml
--system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
--system_ext/app/atfwd/atfwd.apk
+system/etc/permissions/privapp-permissions-qti.xml
+system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
+system_ext/app/atfwd/atfwd.apk
 system_ext/etc/permissions/privapp-permissions-qti-system-ext.xml
 system_ext/etc/permissions/qcrilhook.xml
 system_ext/etc/permissions/qti_permissions.xml
@@ -1386,12 +1373,10 @@ system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 system_ext/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
--system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
--vendor/app/IWlanService/IWlanService.apk
+system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/hw/qcrilNrd
 vendor/bin/ATFWD-daemon
 vendor/bin/adpl
-vendor/bin/hw/qcrilNrd
 vendor/bin/netmgrd
 vendor/bin/port-bridge
 vendor/bin/qrtr-cfg
@@ -1449,7 +1434,6 @@ vendor/lib64/libconfigdb.so
 vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libembmsservice.so
 vendor/lib64/liblqe.so
-vendor/lib64/libmdmdetect.so
 vendor/lib64/libnetmgr.so
 vendor/lib64/libnetmgr_common.so
 vendor/lib64/libnetmgr_nr_fusion.so
@@ -1466,7 +1450,6 @@ vendor/lib64/libqcrilNrQtiMutex.so
 vendor/lib64/libqcrildatactl.so
 vendor/lib64/libqrtr.so
 vendor/lib64/libqsap_sdk.so
-vendor/lib64/libqrtr.so
 vendor/lib64/libqrtrclient.so
 vendor/lib64/libqsocket.so
 vendor/lib64/libril-db.so
@@ -1476,7 +1459,6 @@ vendor/lib64/libril.so
 vendor/lib64/librilqmimiscservices.so
 vendor/lib64/librilqmiservices.so
 vendor/lib64/librilutils.so
-vendor/lib64/librpmb.so
 vendor/lib64/libsystem_health_mon.so
 vendor/lib64/qcrild_libqcrilnrutils.so
 vendor/lib64/qcrilMarshal.so
@@ -1526,14 +1508,14 @@ vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
 # Soter service (Tencent)
--vendor/app/SoterService/SoterService.apk
+vendor/app/SoterService/SoterService.apk
 
 # Thermal
 vendor/bin/mi_thermald
 vendor/lib64/libthermalclient.so
 
 # Time services
--vendor/app/TimeService/TimeService.apk
+vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
