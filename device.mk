@@ -22,6 +22,10 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Platform
+MSMSTEPPE := holi
+TARGET_BOARD_PLATFORM := $(MSMSTEPPE)
+
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
@@ -549,25 +553,6 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi \
     device/xiaomi/stone-kernel
-
-# Telephony
-PRODUCT_PACKAGES += \
-    extphonelib \
-    extphonelib-product \
-    extphonelib.xml \
-    extphonelib_product.xml \
-    ims-ext-common \
-    ims_ext_common.xml \
-    qti-telephony-hidl-wrapper \
-    qti_telephony_hidl_wrapper.xml \
-    qti-telephony-utils \
-    qti_telephony_utils.xml \
-    telephony-ext \
-    xiaomi-telephony-stub
-
-PRODUCT_BOOT_JARS += \
-    telephony-ext \
-    xiaomi-telephony-stub
 
 # Update engine
 PRODUCT_PACKAGES += \
