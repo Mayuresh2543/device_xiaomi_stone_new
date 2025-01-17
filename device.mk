@@ -298,14 +298,6 @@ PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
     libavservices_minijail_vendor \
     libcodec2_hidl@1.1.vendor \
-    libmm-omxcore \
-    libOmxAacEnc \
-    libOmxAmrEnc \
-    libOmxCore \
-    libOmxEvrcEnc \
-    libOmxG711Enc \
-    libOmxQcelp13Enc \
-    libstagefrighthw \
     libstagefright_omx \
     libstagefright_omx.vendor \
     libstagefright_foundation \
