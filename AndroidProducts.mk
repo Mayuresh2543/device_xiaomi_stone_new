@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_stone.mk
+    $(LOCAL_DIR)/yaap_stone.mk
